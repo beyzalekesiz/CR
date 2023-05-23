@@ -13,7 +13,7 @@ public class UsersModel {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
+/*
     @Column(name = "name")
     private String name;
 
@@ -22,6 +22,6 @@ public class UsersModel {
 
     @Column(name = "email")
     private String email;
-
+*/
 
 }
