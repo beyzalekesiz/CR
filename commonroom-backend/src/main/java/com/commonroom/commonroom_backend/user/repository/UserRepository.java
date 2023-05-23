@@ -6,4 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 @Repository
 public interface UserRepository extends JpaRepository<UsersModel,Long>  {
+    UsersModel findByEmail(String email);
 }
